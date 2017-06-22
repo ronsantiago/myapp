@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1= Tweets
+  
+  table
+    thead
+      tr
+        td= 'Text'
+        td= 'Created At'
+        td= 'Link'
+    tbody
+      each tweet in listTweets
+        tr
+          td= tweet.text
+          td= tweet.created_at
+          td= tweet.url

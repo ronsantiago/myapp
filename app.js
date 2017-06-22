@@ -6,10 +6,11 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var users = require('./routes/users');
+var tweets = require('./routes/tweets');
 
 var app = express();
 
+/*
 // workaround that works behind proxy
 var Twitter = require('twitter');
 
@@ -22,8 +23,7 @@ var client = new Twitter({
     proxy: 'http://bluecoat-proxy:8080'
   }
 });
-
-app.set('twitter', client);
+*/
 
 /*
 client.get('statuses/user_timeline', {count: '30', screen_name: 'appdirect'}, function(error, tweets, response) {
@@ -48,7 +48,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/users', users);
+app.use('/tweets', tweets);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

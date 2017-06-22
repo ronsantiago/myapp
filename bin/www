@@ -25,15 +25,14 @@ console.log('Server running on http://localhost:' + port);
 /**
  * Start Twitter Proxy (does not work behind proxy)
  */
-//require('child_process').spawn('twitter-proxy');
-//console.log('Request the Twitter API using: http://localhost:7890/1.1/statuses/user_timeline.json\?count\=30\&screen_name\=appdirect');
-/*
+var path = require('path');
+var config = require(path.join(process.cwd(), './config.json'));
 var twitterProxyServer = require('twitter-proxy');
 twitterProxyServer({
-  consumerKey: '9M3GTJkryPoPO0I91sMl7IcjB',
-  consumerSecret: '9z2HKb7Qx8YKtrS5jeBTRSpiQTHmmmNHHFB2XvcpvizyMLHvSe'
+  consumerKey: config.consumerKey,
+  consumerSecret: config.consumerSecret,
+  port: config.port
 });
-*/
 
 /**
  * Listen on provided port, on all network interfaces.
