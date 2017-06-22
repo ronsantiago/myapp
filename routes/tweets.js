@@ -3,8 +3,6 @@ var router = express.Router();
 var request = require('request');
 var url = require('url');
 
-var app = express();
-
 /*
 var Twitter = require('twitter');
 
@@ -21,6 +19,16 @@ var client = new Twitter({
 
 /* GET user timeline */
 router.get('/:screen_name', function(req, res, next) {
+	/*
+	client.get('statuses/user_timeline', {screen_name: req.params.screen_name, count: req.query.count}, function(error, tweets, response) {
+	  if (!error) {
+		res.render('tweets', {title: 'Tweets', listTweets: tweets })
+	  } else {
+	    res.send('error');
+	  }
+	});
+	*/
+	
 	var screenName = req.params.screen_name;
 	var count = req.query.count;
 
@@ -32,16 +40,17 @@ router.get('/:screen_name', function(req, res, next) {
 	}
 
 	var twitterUrl = url.format(options);
-
-	/*
-	request(twitterUrl, function(err, res, body) {
-	  if (!err) {
-	    app.render('index', { listTweets: body });
-	  }
-	});
-	*/
-	request(twitterUrl, processTweets); 
-  
+	
+	// use local JSON response at work
+	if (/^win/.test(process.platform)) {
+		var path = require('path');
+		var body = require(path.join(process.cwd(), './tweets.json'));
+	  
+		processTweets(null, null, JSON.stringify(body));
+	} else {
+		request(twitterUrl, processTweets);
+	}
+	
 	function processTweets(err, res1, body) {
 	  var tweets = JSON.parse(body);
 	  var c = 0, list = [];
@@ -54,15 +63,7 @@ router.get('/:screen_name', function(req, res, next) {
 	  
 	  res.render('tweets', { title: 'Tweets', listTweets: list});
 	}
-	/*
-	client.get('statuses/user_timeline', {count: req.params.count, screen_name: req.params.screen_name}, function(error, tweets, response) {
-	  if (!error) {
-		res.render('index', { listTweets: tweets })
-	  } else {
-	    res.send('error');
-	  }
-	});
-	*/
+	
 });
 
 module.exports = router;

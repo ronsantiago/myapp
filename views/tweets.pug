@@ -13,5 +13,11 @@ block content
       each tweet in listTweets
         tr
           td= tweet.text
-          td= tweet.created_at
+          td
+            span(class='twitterDate')= tweet.created_at
           td= tweet.url
+  // format datetime in twitter-like fashion
+  script(type="text/javascript").
+    $(".twitterDate").each(function() {
+      $(this).text(moment($(this).text()).twitterLong());
+    });
