@@ -33,7 +33,7 @@ router.get('/:screen_name', function(req, res, next) {
 	var count = req.query.count;
 
 	var options = {
-	    protocol: "http:",
+	    protocol: 'http:',
 	    host: 'localhost:7890',
 	    pathname: '/1.1/statuses/user_timeline.json',
 	    query: { screen_name: screenName, count: count },
@@ -53,15 +53,29 @@ router.get('/:screen_name', function(req, res, next) {
 	
 	function processTweets(err, res1, body) {
 	  var tweets = JSON.parse(body);
-	  var c = 0, list = [];
+	  var listTweets = [];
 	  
 	  for (var i = 0; i < tweets.length; i++) {
 	    var tweet = tweets[i];
-	    var tweetUrl = tweet.entities.urls[0].url;
-	    list.push({text: tweet.text, created_at: tweet.created_at, url: tweetUrl});
+	    var tweetText = tweetDateTime = tweetLink = retweetBy = retweetFrom = '';
+	    var retweet = false;
+	    
+	    tweetDateTime = tweet.created_at;
+	    tweetLink = 'https://twitter.com/' + tweet.user.screen_name + '/status/' + tweet.id_str;
+	    
+	    if (tweet.retweeted_status != null) {
+	      retweet = true;
+	      retweetBy = tweet.user.name + ' @' + tweet.user.screen_name;
+	      retweetFrom = tweet.retweeted_status.user.name + ' @' + tweet.retweeted_status.user.screen_name;
+	      tweetText = tweet.text.replace('RT @' + tweet.retweeted_status.user.screen_name + ': ', '');
+	    } else {
+	      tweetText = tweet.text;
+	    }
+	    
+	    listTweets.push({text: tweetText, date_time: tweetDateTime, link: tweetLink, retweet: retweet, retweet_by: retweetBy, retweet_from: retweetFrom});
 	  }
 	  
-	  res.render('tweets', { title: 'Tweets', listTweets: list});
+	  res.render('tweets', { title: 'Tweets', listTweets: listTweets});
 	}
 	
 });

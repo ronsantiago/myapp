@@ -6,18 +6,29 @@ block content
   table
     thead
       tr
-        td= 'Text'
-        td= 'Created At'
-        td= 'Link'
+        td Content
+        td Created
+        td Link
     tbody
       each tweet in listTweets
         tr
-          td= tweet.text
           td
-            span(class='twitterDate')= tweet.created_at
-          td= tweet.url
-  // format datetime in twitter-like fashion
+            if tweet.retweet
+              div.retweet
+                span.retweetBy= tweet.retweet_by
+                |
+                | Retweeted
+                |
+                span.retweetFrom= tweet.retweet_from
+                | :
+            p.tweetText= tweet.text
+          td
+            span.tweetDateTime= tweet.date_time
+          td
+            a(href=tweet.link target="_blank") Link
+          
+  // format datetime in twitter-like format
   script(type="text/javascript").
-    $(".twitterDate").each(function() {
+    $('.tweetDateTime').each(function() {
       $(this).text(moment($(this).text()).twitterLong());
     });
