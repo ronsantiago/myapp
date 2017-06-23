@@ -63,6 +63,7 @@ router.get('/:screen_name', function(req, res, next) {
 	    tweetDateTime = tweet.created_at;
 	    tweetLink = 'https://twitter.com/' + tweet.user.screen_name + '/status/' + tweet.id_str;
 	    
+	    // retweets
 	    if (tweet.retweeted_status != null) {
 	      retweet = true;
 	      retweetBy = tweet.user.name + ' @' + tweet.user.screen_name;
@@ -71,6 +72,22 @@ router.get('/:screen_name', function(req, res, next) {
 	    } else {
 	      tweetText = tweet.text;
 	    }
+	    
+	    // user mentions
+	    for (var j = 0; j < tweet.entities.user_mentions.length; j++) {
+	      var mention = tweet.entities.user_mentions[j];
+	      
+	      tweetText = tweetText.replace('@' + mention.screen_name, mention.name + ' @' + mention.screen_name); 
+	    }
+	    
+	    /*
+	    // urls
+	    for (var j = 0; j < tweet.entities.urls.length; j++) {
+	      var url = tweet.entities.urls[j];
+	      
+	      tweetText = tweetText.substr(0, url.indices[0]) + '<a href="' + url.expanded_url + '">' + url.display_url + '</a>' + tweetText.substr(url.indices[1]); 
+	    }
+	    */
 	    
 	    listTweets.push({text: tweetText, date_time: tweetDateTime, link: tweetLink, retweet: retweet, retweet_by: retweetBy, retweet_from: retweetFrom});
 	  }
