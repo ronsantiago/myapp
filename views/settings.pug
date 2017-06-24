@@ -1,0 +1,36 @@
+extends layout
+
+block content
+  h1= title
+  a(href='/') Tweets
+  
+  form(action="/settings" method="post")
+    table
+      tbody
+        tr
+          td Screen Name
+          td
+            input(type="text" id="screenName" name="screenName" value=localStorage.getItem('screenName'))
+        tr
+          td Column Order
+          td
+            div#content.column Content
+            div#created.column Created
+            div#link.column Link
+        tr
+          td Time Range
+          td 
+            input(type="radio" name="timeRange" id="lastHour" value="last_hour" checked="")
+            label(for="lastHour") Last Hour
+            input(type="radio" name="timeRange" id="lastDay" value="last_day" checked="")
+            label(for="lastDay") Last Day
+            input(type="radio" name="timeRange" id="lastWeek" value="last_week" checked="")
+            label(for="lastWeek") Last Week
+        tr
+          td Count
+          td
+            input(type="text" name="count" value=localStorage.getItem('count'))
+        tr
+          td(colspan="2")
+            button(type="submit") Submit
+      

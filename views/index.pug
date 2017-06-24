@@ -2,11 +2,28 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  a(href='/settings') Settings
   
   table
+    thead
+      tr
+        th Content
+        th Created
+        th Link
     tbody
       each tweet in listTweets
         tr
-          each value in tweet
-            td= value
+          td
+            if tweet.retweet
+              div.retweet
+                span.retweetBy= tweet.retweet_by
+                |
+                | retweeted
+                |
+                span.retweetFrom=tweet.retweet_from
+                | :
+            p.tweetText=tweet.text
+          td
+            span.tweetDateTime=tweet.date_time
+          td
+            a(href=tweet.link target="_blank") Link

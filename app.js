@@ -6,34 +6,15 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./routes/index');
-var tweets = require('./routes/tweets');
+var settings = require('./routes/settings');
 
 var app = express();
 
-/*
-// workaround that works behind proxy
-var Twitter = require('twitter');
-
-var client = new Twitter({
-  consumer_key: '9M3GTJkryPoPO0I91sMl7IcjB',
-  consumer_secret: '9z2HKb7Qx8YKtrS5jeBTRSpiQTHmmmNHHFB2XvcpvizyMLHvSe',
-  access_token_key: '876821003103592449-Hr5V4R5lX9vZHGL6bdwWyC4WrSBuQrA',
-  access_token_secret: 'idMwqdfLU60uqznfgEyLoJ0sThYjuXNzTJuCira0aUWAT',
-  request_options: {
-    proxy: 'http://bluecoat-proxy:8080'
-  }
-});
-*/
-
-/*
-client.get('statuses/user_timeline', {count: '30', screen_name: 'appdirect'}, function(error, tweets, response) {
-	  if (!error) {
-	    console.log(tweets);
-	  } else {
-        console.log('error');
-	  }
-	});
-*/
+//initialize LocalStorage
+if (typeof localStorage === "undefined" || localStorage === null) {
+  var LocalStorage = require('node-localstorage').LocalStorage;
+  localStorage = new LocalStorage('./scratch');
+}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -48,7 +29,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
-app.use('/tweets', tweets);
+app.use('/settings', settings);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
