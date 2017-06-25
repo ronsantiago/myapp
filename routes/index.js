@@ -7,7 +7,8 @@ router.get('/', function(req, res, next) {
   var screenName = localStorage.getItem('screenName');
   var count = localStorage.getItem('count');
   var timeRange = localStorage.getItem('timeRange');
-
+  var columnOrder = localStorage.getItem('columnOrder').split(',');
+  
   var options = {
       protocol: 'http:',
       host: 'localhost:7890',
@@ -23,23 +24,25 @@ router.get('/', function(req, res, next) {
   function processTweets(err, res1, body) {
     var tweets = JSON.parse(body);
     var listTweets = [];
+    var secondsPerMinute = 60;
+    var secondsPerHour = 3600;
+    var secondsPerDay = 86400;
+    var month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
     
     for (var i = 0; i < tweets.length; i++) {
       var tweet = tweets[i];
       var tweetText = tweetDateTime = tweetLink = retweetBy = retweetFrom = '';
       var retweet = false;
       
-      tweetLink = 'https://twitter.com/' + tweet.user.screen_name + '/status/' + tweet.id_str;
-      
       // datetime
-      //tweetDateTime = tweet.created_at;
       var tweetDate = new Date(Date.parse(tweet.created_at));
       var currentDate = new Date();
       var secondsAgo = Math.floor((currentDate - tweetDate) / 1000);
-      var secondsPerMinute = 60;
-      var secondsPerHour = 3600;
-      var secondsPerDay = 86400;
-      var month = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      
+      // process list up to specified time range only
+      if (secondsAgo > timeRange) {
+        break;
+      }
       
       if (secondsAgo < secondsPerMinute) {
         tweetDateTime = secondsAgo + 's';
@@ -54,6 +57,8 @@ router.get('/', function(req, res, next) {
           tweetDateTime += ' ' + tweetDate.getFullYear();
         }
       }
+      
+      tweetLink = 'https://twitter.com/' + tweet.user.screen_name + '/status/' + tweet.id_str;
       
       // retweets
       if (tweet.retweeted_status != null) {
@@ -74,11 +79,17 @@ router.get('/', function(req, res, next) {
         tweetText = tweetText.replace(re, mention.name + ' @' + mention.screen_name); 
       }
       
-      listTweets.push({text: tweetText, date_time: tweetDateTime, link: tweetLink, retweet: retweet, retweet_by: retweetBy, retweet_from: retweetFrom});
+      listTweets.push({ text: tweetText, date_time: tweetDateTime, link: tweetLink, retweet: retweet, retweet_by: retweetBy, retweet_from: retweetFrom });
     }
     
-    res.render('index', { title: 'Tweets', listTweets: listTweets});
+    res.render('index', { title: 'Tweets', listTweets: listTweets, columnOrder, columnOrder });
   }
+});
+
+router.post('/', function(req, res) {
+  localStorage.setItem('screenName', req.body.screenName);
+  
+  res.redirect('/');
 });
 
 module.exports = router;

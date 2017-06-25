@@ -10,8 +10,10 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res) {
   localStorage.setItem('screenName', req.body.screenName);
-  localStorage.setItem('timeRange', req.body.timeRange);
+  localStorage.setItem('screenNames', req.body.screenNames);
   localStorage.setItem('count', req.body.count);
+  localStorage.setItem('timeRange', req.body.timeRange);
+  localStorage.setItem('columnOrder', req.body.columnOrder);
   
   res.redirect('/');
 });

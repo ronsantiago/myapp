@@ -4,26 +4,47 @@ block content
   h1= title
   a(href='/settings') Settings
   
-  table
-    thead
-      tr
-        th Content
-        th Created
-        th Link
-    tbody
-      each tweet in listTweets
+  form(id="switch" action="/" method="post")
+    label(for="screenNames") By
+    select(id="screenNames" name="screenName")
+      each screenName in localStorage.getItem('screenNames').split(',')
+        option(selected=screenName == localStorage.getItem('screenName'))=screenName
+  
+  if (listTweets.length)
+    table
+      thead
         tr
-          td
-            if tweet.retweet
-              div.retweet
-                span.retweetBy= tweet.retweet_by
-                |
-                | retweeted
-                |
-                span.retweetFrom=tweet.retweet_from
-                | :
-            p.tweetText=tweet.text
-          td
-            span.tweetDateTime=tweet.date_time
-          td
-            a(href=tweet.link target="_blank") Link
+          each column in columnOrder
+            th= column
+      tbody
+        each tweet in listTweets
+          tr
+            each column in columnOrder
+              if column == 'Content'
+                td
+                  if tweet.retweet
+                    div.retweet
+                      span.retweetBy= tweet.retweet_by
+                      |
+                      | retweeted
+                      |
+                      span.retweetFrom=tweet.retweet_from
+                      | :
+                  p.tweetText=tweet.text
+              else if column == 'Created'
+                td
+                  span.tweetDateTime=tweet.date_time
+              else if column == 'Link'
+                td
+                  a(href=tweet.link target="_blank") Link
+              else
+                td Unknown column
+  else
+    h2.notFound No tweets found!
+    
+  script(type="text/javascript").
+    $(document).ready(function() {
+      $("select#screenNames").change(function(event) {
+        $('form#switch').submit();
+      });
+    });

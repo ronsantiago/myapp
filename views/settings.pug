@@ -2,35 +2,139 @@ extends layout
 
 block content
   h1= title
-  a(href='/') Tweets
+  a(href='/') Go Back
   
-  form(action="/settings" method="post")
+  form(id="settings" action="/settings" method="post")
     table
       tbody
         tr
-          td Screen Name
+          td Screen Names
           td
             input(type="text" id="screenName" name="screenName" value=localStorage.getItem('screenName'))
-        tr
-          td Column Order
-          td
-            div#content.column Content
-            div#created.column Created
-            div#link.column Link
-        tr
-          td Time Range
-          td 
-            input(type="radio" name="timeRange" id="lastHour" value="last_hour" checked="")
-            label(for="lastHour") Last Hour
-            input(type="radio" name="timeRange" id="lastDay" value="last_day" checked="")
-            label(for="lastDay") Last Day
-            input(type="radio" name="timeRange" id="lastWeek" value="last_week" checked="")
-            label(for="lastWeek") Last Week
+            button(type="button" id="add") Add
+            br
+            select(id="screenNames" name="screenNames" size="3")
+              each screenName in localStorage.getItem('screenNames').split(',')
+                option(selected=screenName == localStorage.getItem('screenName'))=screenName
+            button(type="button" id="delete") Remove
         tr
           td Count
           td
-            input(type="text" name="count" value=localStorage.getItem('count'))
+            input(type="number" id="count" name="count" value=localStorage.getItem('count'))
+        tr
+          td Time Range
+          td 
+            input(type="radio" name="timeRange" id="pastMinute" value="60" checked=localStorage.getItem('timeRange')=='60')
+            label(for="pastMinute") Past Minute
+            input(type="radio" name="timeRange" id="pastHour" value="3600" checked=localStorage.getItem('timeRange')=='3600')
+            label(for="pastHour") Past Hour
+            input(type="radio" name="timeRange" id="pastDay" value="86400" checked=localStorage.getItem('timeRange')=='86400')
+            label(for="pastDay") Past Day
+            input(type="radio" name="timeRange" id="pastWeek" value="604800" checked=localStorage.getItem('timeRange')=='604800')
+            label(for="pastWeek") Past Week
+            input(type="radio" name="timeRange" id="all" value=Number.MAX_VALUE checked=localStorage.getItem('timeRange')==Number.MAX_VALUE)
+            label(for="all") All
+        tr
+          td Column Order
+          td
+            select(id="columnOrder" name="columnOrder" size="3" multiple)
+              each column in localStorage.getItem('columnOrder').split(',')
+                option=column
+            button(type="button" class="upDown" value="up") Up
+            button(type="button" class="upDown" value="down") Down
+        tr
+          td Column Order
+          td
+            button(type="button" id="column1" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)") Content
+            button(type="button" id="column2" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)") Created
+            button(type="button" id="column3" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)") Link
         tr
           td(colspan="2")
-            button(type="submit") Submit
+            button(type="button" id="send") Send
+            
+  script(type="text/javascript").
+    $(document).ready(function() {
+      // up/down click event to sort columns
+      $('button.upDown').click(function() {
+        var $option = $('select#columnOrder option:selected');
+        
+        if ($(this).val() == 'up') {
+          $option.first().prev().before($option);
+        } else {
+          $option.last().next().after($option);
+        }
+      });
       
+      $('button#send').click(function() {
+        $('form#settings').submit();
+      });
+      
+      $('form#settings').submit(function(event) {
+        if ($('select#screenNames option').length == 0) {
+          // need at least one screen name
+          event.preventDefault();
+        } else {
+          // prepare form values before submitting
+          $('select#columnOrder option').prop('selected', true);
+          $('input#screenName').val($('select#screenNames option:selected').val());
+          $('select#screenNames').prop('multiple', true);
+          $('select#screenNames option').prop('selected', true);
+        }
+      });
+      
+      // screenName event handler
+      $("select#screenNames").change(function(event) {
+        $("input#screenName").val($("select#screenNames option:selected").val());
+      });
+      
+      // add screen name button handler
+      $("button#add").click(function() {
+        var notFound = true;
+        
+        $('select#screenNames option').each(function() {
+          if ($(this).val().toLowerCase() == $("input#screenName").val().toLowerCase()) {
+            notFound = false;
+            return false;
+          }
+        });
+        
+        if (notFound) {
+          $("select#screenNames option").removeAttr('selected');
+          $("select#screenNames").append(new Option($("input#screenName").val(), $("input#screenName").val(), true, true));
+        }
+      });
+      
+      // add screen name button handler
+      $("button#delete").click(function() {
+        $("select#screenNames option:selected").remove();
+        $("select#screenNames option").first().prop('selected', true);
+        $("select#screenNames").change();
+      });
+    });
+    
+    /*
+     * Drag and drop handlers
+     */
+    
+    function allowDrop(event) {
+      event.preventDefault();
+    }
+
+    function drag(event) {
+      event.dataTransfer.setData("sourceId", event.target.id);
+    }
+
+    function drop(event) {
+      event.preventDefault();
+      var sourceId = event.dataTransfer.getData("sourceId");
+      
+      // swap elements
+      var sourceElement = document.getElementById(sourceId);
+      var targetElement = event.target;
+      var sourceElementClone = sourceElement.cloneNode(true);
+      var targetElementClone = targetElement.cloneNode(true);
+      
+      targetElement.parentElement.replaceChild(sourceElementClone, targetElement);
+      sourceElement.parentElement.replaceChild(targetElementClone, sourceElement);
+    }
+    
