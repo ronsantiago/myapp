@@ -109,69 +109,11 @@ block content
         $("select#screenNames option").first().prop('selected', true);
         $("select#screenNames").change();
       });
-    
-      /*
-      // initialize draggable element handlers
-      $('.draggable').each(function() {
-        $(this).attr('draggable','true');
-        $(this).bind('dragstart',dragstart_handler);
-        //$(this).bind('dragend', dragend_handler);
-        //$(this).bind('dragexit', dragexit_handler);
-      });
-      
-      // initialize droppable element handlers
-      $('.droppable').each(function() {
-        $(this).bind('drop', drop_handler);
-        $(this).bind('dragover',dragover_handler);
-        $(this).bind('dragenter',dragenter_handler);
-        $(this).bind('dragleave', dragleave_handler);
-      });
-      */
     });
     
     /*
      * Drag and drop handlers
      */
-    
-    /*
-    function allowDrop(event) {
-      event.preventDefault();
-    }
-
-    function drag(event) {
-      event.dataTransfer.setData("sourceId", event.target.id);
-    }
-
-    function drop(event) {
-      event.preventDefault();
-      var sourceId = event.dataTransfer.getData("sourceId");
-      
-      // do nothing if dropped on the same element
-      if (event.target.id == sourceId) {
-        return;
-      }
-      
-      // swap elements
-      var sourceElement = document.getElementById(sourceId);
-      var targetElement = event.target;
-      var sourceElementClone = sourceElement.cloneNode(true);
-      var targetElementClone = targetElement.cloneNode(true);
-      var sourceOptionId = sourceElement.id.replace('button', 'option');
-      var targetOptionId = targetElement.id.replace('button', 'option');
-      
-      targetElement.parentElement.replaceChild(sourceElementClone, targetElement);
-      sourceElement.parentElement.replaceChild(targetElementClone, sourceElement);
-      
-      // swap select elements
-      var sourceOption = document.getElementById(sourceOptionId);
-      var targetOption = document.getElementById(targetOptionId);
-      var sourceOptionClone = sourceOption.cloneNode(true);
-      var targetOptionClone = targetOption.cloneNode(true);
-      
-      targetOption.parentElement.replaceChild(sourceOptionClone, targetOption);
-      sourceOption.parentElement.replaceChild(targetOptionClone, sourceOption);
-    }
-    */
     
     var dragstart_handler = function(event) {
       event.dataTransfer.setData("sourceId", event.target.id);
