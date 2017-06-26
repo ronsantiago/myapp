@@ -2,7 +2,56 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
     script(src='/javascripts/jquery-3.2.1.min.js')
+    if localStorage.getItem('style') && localStorage.getItem('style') != 'user'
+      link(rel='stylesheet', href='/stylesheets/' + localStorage.getItem('style') + '.css')
+    else if localStorage.getItem('validUser')=='false'
+      link(rel='stylesheet', href='/stylesheets/style1.css')
+    else
+      link(rel='stylesheet', href='/stylesheets/style1.css')
+      -
+        var profile = JSON.parse(localStorage.getItem('userProfile'))[0]
+        function LightenColor(rgbtext, delta) {
+          var r, g, b, txt;
+          r= parseInt(rgbtext.substr(1, 2), 16),
+          g= parseInt(rgbtext.substr(3, 2), 16),
+          b= parseInt(rgbtext.substr(5, 2), 16),
+    
+          r+= delta;  if (r> 255) r= 255;  if (r< 0) r= 0;
+          g+= delta;  if (g> 255) g= 255;  if (g< 0) g= 0;
+          b+= delta;  if (b> 255) b= 255;  if (b< 0) b= 0;
+          txt= b.toString(16);       if (txt.length< 2) txt= "0"+ txt;
+          txt= g.toString(16)+ txt;  if (txt.length< 4) txt= "0"+ txt;
+          txt= r.toString(16)+ txt;  if (txt.length< 6) txt= "0"+ txt;
+    
+          return "#"+ txt;
+        }
+        
+        function DarkenColor(rgbtext, delta) {
+          return LightenColor(rgbtext, delta* -1);
+        }
+        
+      style.
+        body {
+          background-color: ##{profile.profile_sidebar_fill_color};
+          color: ##{profile.profile_text_color};
+          background-image: linear-gradient(to bottom, black 0%,white 50%), url(#{profile.profile_banner_url});
+          background-position: top;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-blend-mode: screen;
+        }
+        
+        a {
+          color: ##{profile.profile_link_color};
+        }
+        
+        a:hover {
+          color: #{LightenColor('#'+profile.profile_link_color, 50)};
+        }
+        
+        .retweet-div {
+          color: #{LightenColor('#'+profile.profile_text_color, 50)};
+        }
   body
     block content

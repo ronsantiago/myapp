@@ -1,71 +1,68 @@
 extends layout
 
 block content
-  h1= title
-  a(href='/') Go Back
-  
-  form(id="settings" action="/settings" method="post")
+  div(class="title-div")
     table
       tbody
         tr
-          td Screen Names
           td
-            input(type="text" id="screenName" name="screenName" value=localStorage.getItem('screenName'))
-            button(type="button" id="add") Add
-            br
-            select(id="screenNames" name="screenNames" size="3")
-              each screenName in localStorage.getItem('screenNames').split(',')
-                option(selected=screenName == localStorage.getItem('screenName'))=screenName
-            button(type="button" id="delete") Remove
-        tr
-          td Count
-          td
-            input(type="number" id="count" name="count" value=localStorage.getItem('count'))
-        tr
-          td Time Range
-          td 
-            input(type="radio" name="timeRange" id="pastMinute" value="60" checked=localStorage.getItem('timeRange')=='60')
-            label(for="pastMinute") Past Minute
-            input(type="radio" name="timeRange" id="pastHour" value="3600" checked=localStorage.getItem('timeRange')=='3600')
-            label(for="pastHour") Past Hour
-            input(type="radio" name="timeRange" id="pastDay" value="86400" checked=localStorage.getItem('timeRange')=='86400')
-            label(for="pastDay") Past Day
-            input(type="radio" name="timeRange" id="pastWeek" value="604800" checked=localStorage.getItem('timeRange')=='604800')
-            label(for="pastWeek") Past Week
-            input(type="radio" name="timeRange" id="all" value=Number.MAX_VALUE checked=localStorage.getItem('timeRange')==Number.MAX_VALUE)
-            label(for="all") All
-        tr
-          td Column Order
-          td
-            select(id="columnOrder" name="columnOrder" size="3" multiple)
-              each column in localStorage.getItem('columnOrder').split(',')
-                option=column
-            button(type="button" class="upDown" value="up") Up
-            button(type="button" class="upDown" value="down") Down
-        tr
-          td Column Order
-          td
-            button(type="button" id="column1" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)") Content
-            button(type="button" id="column2" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)") Created
-            button(type="button" id="column3" draggable="true" ondragstart="drag(event)" ondrop="drop(event)" ondragover="allowDrop(event)") Link
-        tr
-          td(colspan="2")
-            button(type="button" id="send") Send
+            h1= title
+          td(class="navigation")
+            a(href='/') Back
+  
+  div(class="content-div")
+    form(id="settings" action="/settings" method="post")
+      table(class="settings-table")
+        tbody
+          tr
+            td.settings-name Screen Names
+            td
+              input(type="text" id="screenName" class="input-style" name="screenName" value=localStorage.getItem('screenName'))
+              button(type="button" id="add" class="button-style") Add
+              br
+              select(id="screenNames" class="select-style" name="screenNames" size="3")
+                each screenName in localStorage.getItem('screenNames').split(',')
+                  option(selected=screenName == localStorage.getItem('screenName'))=screenName
+              button(type="button" id="delete" class="button-style") Remove
+          tr
+            td.settings-name Count
+            td
+              input(type="number" id="count" class="input-style" name="count" min="1" value=localStorage.getItem('count'))
+          tr
+            td.settings-name Time Range
+            td
+              div(class="select-div")
+                select(id="timeRange" name="timeRange")
+                  option(value=60 selected=localStorage.getItem('timeRange')==60) Past Minute
+                  option(value=3600 selected=localStorage.getItem('timeRange')==3600) Past Hour
+                  option(value=86400 selected=localStorage.getItem('timeRange')==86400) Past Day
+                  option(value=604800 selected=localStorage.getItem('timeRange')==604800) Past Week
+                  option(value=Number.MAX_VALUE selected=localStorage.getItem('timeRange')==Number.MAX_VALUE) All
+          tr
+            td.settings-name Column Order
+            td
+              select(id="columnOrder" class="input-style" name="columnOrder" size="3" multiple hidden)
+                each columnName in localStorage.getItem('columnOrder').split(',')
+                  option(id="option"+columnName selected)=columnName
+              each columnName in localStorage.getItem('columnOrder').split(',')
+                button(type="button" id="button"+columnName class="button-style draggable" draggable="true" ondragstart="dragstart_handler(event)" ondrop="drop_handler(event)" ondragover="dragover_handler(event)" ondragenter="dragenter_handler(event)" ondragleave="dragleave_handler(event)" ondragend="dragend_handler(event)")=columnName
+          tr
+            td.settings-name Style
+            td
+              div(class="select-div")
+                select(id="style" name="style")
+                  option(value='style1' selected=localStorage.getItem('style')=='style1') Default
+                  option(value='style2' selected=localStorage.getItem('style')=='style2') Alternate
+                  option(value='user' selected=localStorage.getItem('style')=='user') User Profile
+          tr
+            td
+            td
+              button(type="button" id="save" class="button-style") Save
             
   script(type="text/javascript").
     $(document).ready(function() {
-      // up/down click event to sort columns
-      $('button.upDown').click(function() {
-        var $option = $('select#columnOrder option:selected');
-        
-        if ($(this).val() == 'up') {
-          $option.first().prev().before($option);
-        } else {
-          $option.last().next().after($option);
-        }
-      });
-      
-      $('button#send').click(function() {
+      // trigger form submit
+      $('button#save').click(function() {
         $('form#settings').submit();
       });
       
@@ -91,6 +88,7 @@ block content
       $("button#add").click(function() {
         var notFound = true;
         
+        // check if already on the list
         $('select#screenNames option').each(function() {
           if ($(this).val().toLowerCase() == $("input#screenName").val().toLowerCase()) {
             notFound = false;
@@ -98,24 +96,44 @@ block content
           }
         });
         
+        // add it if not on list
         if (notFound) {
           $("select#screenNames option").removeAttr('selected');
           $("select#screenNames").append(new Option($("input#screenName").val(), $("input#screenName").val(), true, true));
         }
       });
       
-      // add screen name button handler
+      // remove screen name button handler
       $("button#delete").click(function() {
         $("select#screenNames option:selected").remove();
         $("select#screenNames option").first().prop('selected', true);
         $("select#screenNames").change();
       });
+    
+      /*
+      // initialize draggable element handlers
+      $('.draggable').each(function() {
+        $(this).attr('draggable','true');
+        $(this).bind('dragstart',dragstart_handler);
+        //$(this).bind('dragend', dragend_handler);
+        //$(this).bind('dragexit', dragexit_handler);
+      });
+      
+      // initialize droppable element handlers
+      $('.droppable').each(function() {
+        $(this).bind('drop', drop_handler);
+        $(this).bind('dragover',dragover_handler);
+        $(this).bind('dragenter',dragenter_handler);
+        $(this).bind('dragleave', dragleave_handler);
+      });
+      */
     });
     
     /*
      * Drag and drop handlers
      */
     
+    /*
     function allowDrop(event) {
       event.preventDefault();
     }
@@ -128,13 +146,88 @@ block content
       event.preventDefault();
       var sourceId = event.dataTransfer.getData("sourceId");
       
+      // do nothing if dropped on the same element
+      if (event.target.id == sourceId) {
+        return;
+      }
+      
       // swap elements
       var sourceElement = document.getElementById(sourceId);
       var targetElement = event.target;
       var sourceElementClone = sourceElement.cloneNode(true);
       var targetElementClone = targetElement.cloneNode(true);
+      var sourceOptionId = sourceElement.id.replace('button', 'option');
+      var targetOptionId = targetElement.id.replace('button', 'option');
       
       targetElement.parentElement.replaceChild(sourceElementClone, targetElement);
       sourceElement.parentElement.replaceChild(targetElementClone, sourceElement);
+      
+      // swap select elements
+      var sourceOption = document.getElementById(sourceOptionId);
+      var targetOption = document.getElementById(targetOptionId);
+      var sourceOptionClone = sourceOption.cloneNode(true);
+      var targetOptionClone = targetOption.cloneNode(true);
+      
+      targetOption.parentElement.replaceChild(sourceOptionClone, targetOption);
+      sourceOption.parentElement.replaceChild(targetOptionClone, sourceOption);
     }
+    */
+    
+    var dragstart_handler = function(event) {
+      event.dataTransfer.setData("sourceId", event.target.id);
+    }
+    
+    var dragover_handler = function(event) {
+      event.preventDefault();
+    }
+    
+    var drop_handler = function(event) {
+      event.preventDefault();
+      var sourceId = event.dataTransfer.getData("sourceId");
+      
+      // do nothing if dropped on the same element
+      if (event.target.id == sourceId) {
+        return;
+      }
+      
+      
+      var sourceElement = document.getElementById(sourceId);
+      var targetElement = event.target;
+      
+      // cleanup classes
+      $(sourceElement).removeClass("dragentered");
+      $(targetElement).removeClass("dragentered");
+      
+      var sourceElementClone = sourceElement.cloneNode(true);
+      var targetElementClone = targetElement.cloneNode(true);
+      var sourceOptionId = sourceElement.id.replace('button', 'option');
+      var targetOptionId = targetElement.id.replace('button', 'option');
+      
+      // swap elements
+      targetElement.parentElement.replaceChild(sourceElementClone, targetElement);
+      sourceElement.parentElement.replaceChild(targetElementClone, sourceElement);
+      
+      // swap select elements
+      var sourceOption = document.getElementById(sourceOptionId);
+      var targetOption = document.getElementById(targetOptionId);
+      var sourceOptionClone = sourceOption.cloneNode(true);
+      var targetOptionClone = targetOption.cloneNode(true);
+      
+      targetOption.parentElement.replaceChild(sourceOptionClone, targetOption);
+      sourceOption.parentElement.replaceChild(targetOptionClone, sourceOption);
+    }
+    
+    var dragenter_handler = function(event) {
+      event.preventDefault();
+      $(event.target).addClass("dragentered");
+    }
+    
+    var dragleave_handler = function(event) {
+      $(event.target).removeClass("dragentered");
+    }
+    
+    var dragend_handler = function(event) {
+      $(event.target).removeClass("dragentered");
+    }
+    
     

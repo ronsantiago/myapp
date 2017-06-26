@@ -1,0 +1,171 @@
+[
+  {
+    "id": 25375962,
+    "id_str": "25375962",
+    "name": "TSN",
+    "screen_name": "TSN_Sports",
+    "location": "Canada",
+    "description": "The latest from The Sports Network, Canada's Sports Leader.",
+    "url": "https://t.co/6AoRWvbM6w",
+    "entities": {
+      "url": {
+        "urls": [
+          {
+            "url": "https://t.co/6AoRWvbM6w",
+            "expanded_url": "http://www.tsn.ca",
+            "display_url": "tsn.ca",
+            "indices": [
+              0,
+              23
+            ]
+          }
+        ]
+      },
+      "description": {
+        "urls": []
+      }
+    },
+    "protected": false,
+    "followers_count": 684273,
+    "friends_count": 111,
+    "listed_count": 3078,
+    "created_at": "Thu Mar 19 20:19:28 +0000 2009",
+    "favourites_count": 2360,
+    "utc_offset": -14400,
+    "time_zone": "Eastern Time (US & Canada)",
+    "geo_enabled": true,
+    "verified": true,
+    "statuses_count": 191394,
+    "lang": "en",
+    "status": {
+      "created_at": "Mon Jun 26 20:15:47 +0000 2017",
+      "id": 879433026404573200,
+      "id_str": "879433026404573184",
+      "text": "RT @TSNHockey: Teemu Selanne: \"Hello?\"\nLanny McDonald: \"Teemu...it's Lanny.\"\nSelanne: \"LANNY!\"\nWATCH: https://t.co/vEb5FN6CFn #TSNHockey ht…",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "TSNHockey",
+            "indices": [
+              126,
+              136
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "TSNHockey",
+            "name": "TSN Hockey",
+            "id": 1104327972,
+            "id_str": "1104327972",
+            "indices": [
+              3,
+              13
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/vEb5FN6CFn",
+            "expanded_url": "http://fw.to/EGeMUoP",
+            "display_url": "fw.to/EGeMUoP",
+            "indices": [
+              102,
+              125
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "retweeted_status": {
+        "created_at": "Mon Jun 26 20:05:11 +0000 2017",
+        "id": 879430359791829000,
+        "id_str": "879430359791828993",
+        "text": "Teemu Selanne: \"Hello?\"\nLanny McDonald: \"Teemu...it's Lanny.\"\nSelanne: \"LANNY!\"\nWATCH: https://t.co/vEb5FN6CFn… https://t.co/qJskFSF1OY",
+        "truncated": true,
+        "entities": {
+          "hashtags": [],
+          "symbols": [],
+          "user_mentions": [],
+          "urls": [
+            {
+              "url": "https://t.co/vEb5FN6CFn",
+              "expanded_url": "http://fw.to/EGeMUoP",
+              "display_url": "fw.to/EGeMUoP",
+              "indices": [
+                87,
+                110
+              ]
+            },
+            {
+              "url": "https://t.co/qJskFSF1OY",
+              "expanded_url": "https://twitter.com/i/web/status/879430359791828993",
+              "display_url": "twitter.com/i/web/status/8…",
+              "indices": [
+                112,
+                135
+              ]
+            }
+          ]
+        },
+        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 19,
+        "favorite_count": 44,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "in"
+      },
+      "is_quote_status": false,
+      "retweet_count": 19,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "in"
+    },
+    "contributors_enabled": false,
+    "is_translator": false,
+    "is_translation_enabled": false,
+    "profile_background_color": "B90A0A",
+    "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/720975680993763329/tYONivUX.jpg",
+    "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/720975680993763329/tYONivUX.jpg",
+    "profile_background_tile": false,
+    "profile_image_url": "http://pbs.twimg.com/profile_images/819208300650754048/6MStq2EB_normal.jpg",
+    "profile_image_url_https": "https://pbs.twimg.com/profile_images/819208300650754048/6MStq2EB_normal.jpg",
+    "profile_banner_url": "https://pbs.twimg.com/profile_banners/25375962/1498485347",
+    "profile_link_color": "CC0000",
+    "profile_sidebar_border_color": "FFFFFF",
+    "profile_sidebar_fill_color": "AEB6BC",
+    "profile_text_color": "000000",
+    "profile_use_background_image": true,
+    "has_extended_profile": false,
+    "default_profile": false,
+    "default_profile_image": false,
+    "following": null,
+    "follow_request_sent": null,
+    "notifications": null,
+    "translator_type": "none"
+  }
+]

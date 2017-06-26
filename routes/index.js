@@ -8,20 +8,46 @@ router.get('/', function(req, res, next) {
   var count = localStorage.getItem('count');
   var timeRange = localStorage.getItem('timeRange');
   var columnOrder = localStorage.getItem('columnOrder').split(',');
+  var style = localStorage.getItem('style');
   
   var options = {
       protocol: 'http:',
       host: 'localhost:7890',
-      pathname: '/1.1/statuses/user_timeline.json',
-      query: { screen_name: screenName, count: count },
   }
-
+  
+  // fetch user profile for dynamic style and store it
+  options.pathname = '/1.1/users/lookup.json';
+  options.query = { screen_name: screenName };
+  
+  request(url.format(options), function(err, res, body) {
+    if (err) {
+      return;
+    }
+    
+    var profiles = JSON.parse(body);
+    
+    if (profiles.errors && profiles.errors[0].code == 17) {
+      localStorage.setItem('validUser', false);
+    } else {
+      localStorage.setItem('validUser', true);
+      localStorage.setItem('userProfile', body);
+    }
+  });
+  
+  // fetch tweets
+  options.pathname = '/1.1/statuses/user_timeline.json';
+  options.query = { screen_name: screenName, count: count };
+  
   var requestUrl = url.format(options);
   
   // fetch the tweets
   request(requestUrl, processTweets);
   
   function processTweets(err, res1, body) {
+    if (err) {
+      return;
+    }
+    
     var tweets = JSON.parse(body);
     var listTweets = [];
     var secondsPerMinute = 60;
@@ -31,7 +57,7 @@ router.get('/', function(req, res, next) {
     
     for (var i = 0; i < tweets.length; i++) {
       var tweet = tweets[i];
-      var tweetText = tweetDateTime = tweetLink = retweetBy = retweetFrom = '';
+      var tweetText = tweetDateTime = tweetLink = tweetImage = retweetBy = retweetFrom = retweetImage = '';
       var retweet = false;
       
       // datetime
@@ -65,8 +91,10 @@ router.get('/', function(req, res, next) {
         retweet = true;
         retweetBy = tweet.user.name + ' @' + tweet.user.screen_name;
         retweetFrom = tweet.retweeted_status.user.name + ' @' + tweet.retweeted_status.user.screen_name;
+        tweetImage = tweet.retweeted_status.user.profile_image_url;
         tweetText = tweet.text.replace('RT @' + tweet.retweeted_status.user.screen_name + ': ', '');
       } else {
+        tweetImage = tweet.user.profile_image_url;
         tweetText = tweet.text;
       }
       
@@ -79,7 +107,7 @@ router.get('/', function(req, res, next) {
         tweetText = tweetText.replace(re, mention.name + ' @' + mention.screen_name); 
       }
       
-      listTweets.push({ text: tweetText, date_time: tweetDateTime, link: tweetLink, retweet: retweet, retweet_by: retweetBy, retweet_from: retweetFrom });
+      listTweets.push({ text: tweetText, date_time: tweetDateTime, link: tweetLink, linkImage: tweetImage, retweet: retweet, retweet_by: retweetBy, retweet_from: retweetFrom });
     }
     
     res.render('index', { title: 'Tweets', listTweets: listTweets, columnOrder, columnOrder });
@@ -88,6 +116,7 @@ router.get('/', function(req, res, next) {
 
 router.post('/', function(req, res) {
   localStorage.setItem('screenName', req.body.screenName);
+  localStorage.setItem('timeRange', req.body.timeRange);
   
   res.redirect('/');
 });

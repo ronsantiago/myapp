@@ -1,0 +1,5058 @@
+[
+  {
+    "created_at": "Fri Jun 23 15:10:24 +0000 2017",
+    "id": 878269010684629000,
+    "id_str": "878269010684628992",
+    "text": "We'd love to meet with you one-on-one during Microsoft Inspire. Contact us here to schedule a meeting: https://t.co/FhTwiXMdYb #MSInspire",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MSInspire",
+          "indices": [
+            127,
+            137
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/FhTwiXMdYb",
+          "expanded_url": "http://bit.ly/2rxggug",
+          "display_url": "bit.ly/2rxggug",
+          "indices": [
+            103,
+            126
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jun 21 14:56:52 +0000 2017",
+    "id": 877540832156426200,
+    "id_str": "877540832156426246",
+    "text": "\"3 Smart Ways To Win SMB Cloud Business\" https://t.co/6j5NRD4bED by AppDirect Co-Founder @danielsaks on @LinkedIn #SaaS #SMB #Cloud",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            114,
+            119
+          ]
+        },
+        {
+          "text": "SMB",
+          "indices": [
+            120,
+            124
+          ]
+        },
+        {
+          "text": "Cloud",
+          "indices": [
+            125,
+            131
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "danielsaks",
+          "name": "Daniel Saks",
+          "id": 251849264,
+          "id_str": "251849264",
+          "indices": [
+            89,
+            100
+          ]
+        },
+        {
+          "screen_name": "LinkedIn",
+          "name": "LinkedIn",
+          "id": 13058772,
+          "id_str": "13058772",
+          "indices": [
+            104,
+            113
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/6j5NRD4bED",
+          "expanded_url": "http://bit.ly/2sVBq9W",
+          "display_url": "bit.ly/2sVBq9W",
+          "indices": [
+            41,
+            64
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Jun 19 20:44:45 +0000 2017",
+    "id": 876903600827416600,
+    "id_str": "876903600827416576",
+    "text": "Join AppDirect at Microsoft Inspire July 9th-13th. Want to meet at the event? Contact us here:… https://t.co/a3FL2M5sr9",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/a3FL2M5sr9",
+          "expanded_url": "https://twitter.com/i/web/status/876903600827416576",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            96,
+            119
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Jun 19 14:09:19 +0000 2017",
+    "id": 876804087924183000,
+    "id_str": "876804087924183040",
+    "text": "#SaaS Go-to-Market Success - Building Blocks 9 &amp; 10: Live Onboarding and Expert Support https://t.co/sR7LLK1f5f",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            0,
+            5
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/sR7LLK1f5f",
+          "expanded_url": "http://bit.ly/2rvtOaw",
+          "display_url": "bit.ly/2rvtOaw",
+          "indices": [
+            92,
+            115
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Jun 15 22:49:46 +0000 2017",
+    "id": 875485512194064400,
+    "id_str": "875485512194064384",
+    "text": "RT @mrp: Monthly Global Townhall @AppDirect.\n\n(from our Montréal office 🇨🇦) https://t.co/aFbk1L6Clf",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "mrp",
+          "name": "Ron Pragides",
+          "id": 111417386,
+          "id_str": "111417386",
+          "indices": [
+            3,
+            7
+          ]
+        },
+        {
+          "screen_name": "AppDirect",
+          "name": "AppDirect",
+          "id": 154310289,
+          "id_str": "154310289",
+          "indices": [
+            33,
+            43
+          ]
+        }
+      ],
+      "urls": [],
+      "media": [
+        {
+          "id": 875385205611089900,
+          "id_str": "875385205611089920",
+          "indices": [
+            76,
+            99
+          ],
+          "media_url": "http://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+          "url": "https://t.co/aFbk1L6Clf",
+          "display_url": "pic.twitter.com/aFbk1L6Clf",
+          "expanded_url": "https://twitter.com/mrp/status/875385216407306240/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 512,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 874,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 290,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          },
+          "source_status_id": 875385216407306200,
+          "source_status_id_str": "875385216407306240",
+          "source_user_id": 111417386,
+          "source_user_id_str": "111417386"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 875385205611089900,
+          "id_str": "875385205611089920",
+          "indices": [
+            76,
+            99
+          ],
+          "media_url": "http://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+          "url": "https://t.co/aFbk1L6Clf",
+          "display_url": "pic.twitter.com/aFbk1L6Clf",
+          "expanded_url": "https://twitter.com/mrp/status/875385216407306240/photo/1",
+          "type": "photo",
+          "sizes": {
+            "medium": {
+              "w": 1200,
+              "h": 512,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 2048,
+              "h": 874,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 290,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            }
+          },
+          "source_status_id": 875385216407306200,
+          "source_status_id_str": "875385216407306240",
+          "source_user_id": 111417386,
+          "source_user_id_str": "111417386"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Thu Jun 15 16:11:14 +0000 2017",
+      "id": 875385216407306200,
+      "id_str": "875385216407306240",
+      "text": "Monthly Global Townhall @AppDirect.\n\n(from our Montréal office 🇨🇦) https://t.co/aFbk1L6Clf",
+      "truncated": false,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AppDirect",
+            "name": "AppDirect",
+            "id": 154310289,
+            "id_str": "154310289",
+            "indices": [
+              24,
+              34
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 875385205611089900,
+            "id_str": "875385205611089920",
+            "indices": [
+              67,
+              90
+            ],
+            "media_url": "http://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+            "url": "https://t.co/aFbk1L6Clf",
+            "display_url": "pic.twitter.com/aFbk1L6Clf",
+            "expanded_url": "https://twitter.com/mrp/status/875385216407306240/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 1200,
+                "h": 512,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 2048,
+                "h": 874,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 290,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 875385205611089900,
+            "id_str": "875385205611089920",
+            "indices": [
+              67,
+              90
+            ],
+            "media_url": "http://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/DCX-NN4U0AAlsUl.jpg",
+            "url": "https://t.co/aFbk1L6Clf",
+            "display_url": "pic.twitter.com/aFbk1L6Clf",
+            "expanded_url": "https://twitter.com/mrp/status/875385216407306240/photo/1",
+            "type": "photo",
+            "sizes": {
+              "medium": {
+                "w": 1200,
+                "h": 512,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 2048,
+                "h": 874,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 290,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 111417386,
+        "id_str": "111417386",
+        "name": "Ron Pragides",
+        "screen_name": "mrp",
+        "location": "San Francisco, CA",
+        "description": "VP Engineering @AppDirect. Company Builder & Startup Advisor. Fan of @SFGiants & @warriors. Previously @BigCommerce @twitter @salesforce. Addictions: ☕️🍷",
+        "url": "https://t.co/ja31Mi5iGC",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/ja31Mi5iGC",
+                "expanded_url": "http://about.me/pragides",
+                "display_url": "about.me/pragides",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 4056,
+        "friends_count": 700,
+        "listed_count": 323,
+        "created_at": "Thu Feb 04 21:21:59 +0000 2010",
+        "favourites_count": 52466,
+        "utc_offset": -25200,
+        "time_zone": "Pacific Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": true,
+        "statuses_count": 18015,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/768680563381153792/KQoXDUOv_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/768680563381153792/KQoXDUOv_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/111417386/1479536092",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "regular"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": {
+        "id": "07d9ec413bc80003",
+        "url": "https://api.twitter.com/1.1/geo/id/07d9ec413bc80003.json",
+        "place_type": "poi",
+        "name": "AppDirect",
+        "full_name": "AppDirect",
+        "country_code": "CA",
+        "country": "Canada",
+        "contained_within": [],
+        "bounding_box": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                -73.55733057399927,
+                45.498047105164844
+              ],
+              [
+                -73.55733057399927,
+                45.498047105164844
+              ],
+              [
+                -73.55733057399927,
+                45.498047105164844
+              ],
+              [
+                -73.55733057399927,
+                45.498047105164844
+              ]
+            ]
+          ]
+        },
+        "attributes": {}
+      },
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 5,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Jun 12 21:36:49 +0000 2017",
+    "id": 874379991806468100,
+    "id_str": "874379991806468096",
+    "text": "More photos from #AppDirectDayofService! 320 participants, across 10 offices, helping more than 20 different local… https://t.co/RAk7Wze7Dc",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AppDirectDayofService",
+          "indices": [
+            17,
+            39
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/RAk7Wze7Dc",
+          "expanded_url": "https://twitter.com/i/web/status/874379991806468096",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 7,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jun 09 23:44:45 +0000 2017",
+    "id": 873325022336524300,
+    "id_str": "873325022336524288",
+    "text": "Today was #AppDirectDayofService! AppDirectors were out in full force giving back to local communities.… https://t.co/DAxtaOmS0k",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "AppDirectDayofService",
+          "indices": [
+            10,
+            32
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/DAxtaOmS0k",
+          "expanded_url": "https://twitter.com/i/web/status/873325022336524288",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            105,
+            128
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 6,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Jun 07 14:45:30 +0000 2017",
+    "id": 872464540364980200,
+    "id_str": "872464540364980224",
+    "text": "RT @iotbusinessnews: Monetizing an Ecosystem to Drive #IoT Revenue, exclusive article by Elliot Tucker @appdirect https://t.co/w7UwXRIAnq v…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "IoT",
+          "indices": [
+            54,
+            58
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "iotbusinessnews",
+          "name": "IoT Business News",
+          "id": 948191659,
+          "id_str": "948191659",
+          "indices": [
+            3,
+            19
+          ]
+        },
+        {
+          "screen_name": "AppDirect",
+          "name": "AppDirect",
+          "id": 154310289,
+          "id_str": "154310289",
+          "indices": [
+            103,
+            113
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/w7UwXRIAnq",
+          "expanded_url": "https://iotbusinessnews.com/2017/06/07/94049-monetizing-ecosystem-drive-iot-revenue/",
+          "display_url": "iotbusinessnews.com/2017/06/07/940…",
+          "indices": [
+            114,
+            137
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Jun 07 08:51:08 +0000 2017",
+      "id": 872375361161572400,
+      "id_str": "872375361161572355",
+      "text": "Monetizing an Ecosystem to Drive #IoT Revenue, exclusive article by Elliot Tucker @appdirect https://t.co/w7UwXRIAnq via @iotbusinessnews",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "IoT",
+            "indices": [
+              33,
+              37
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AppDirect",
+            "name": "AppDirect",
+            "id": 154310289,
+            "id_str": "154310289",
+            "indices": [
+              82,
+              92
+            ]
+          },
+          {
+            "screen_name": "iotbusinessnews",
+            "name": "IoT Business News",
+            "id": 948191659,
+            "id_str": "948191659",
+            "indices": [
+              121,
+              137
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/w7UwXRIAnq",
+            "expanded_url": "https://iotbusinessnews.com/2017/06/07/94049-monetizing-ecosystem-drive-iot-revenue/",
+            "display_url": "iotbusinessnews.com/2017/06/07/940…",
+            "indices": [
+              93,
+              116
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 948191659,
+        "id_str": "948191659",
+        "name": "IoT Business News",
+        "screen_name": "iotbusinessnews",
+        "location": "",
+        "description": "IoT Business News is the ultimate news source for all Machine-to-Machine and Internet of Things professionals. Breaking news from the M2M & IoT worlds !",
+        "url": "https://t.co/KSysDVO28g",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/KSysDVO28g",
+                "expanded_url": "https://iotbusinessnews.com",
+                "display_url": "iotbusinessnews.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 9171,
+        "friends_count": 42,
+        "listed_count": 530,
+        "created_at": "Wed Nov 14 17:48:40 +0000 2012",
+        "favourites_count": 14,
+        "utc_offset": 7200,
+        "time_zone": "Paris",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3149,
+        "lang": "en-gb",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "EBEBF2",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000036979863/7b22c68517f5902d9341c07240c117eb.png",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000036979863/7b22c68517f5902d9341c07240c117eb.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/693490932122009601/zOTfD2tq_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/693490932122009601/zOTfD2tq_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/948191659/1491224187",
+        "profile_link_color": "0066CC",
+        "profile_sidebar_border_color": "FFFFFF",
+        "profile_sidebar_fill_color": "EFEFEF",
+        "profile_text_color": "333333",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 0,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Jun 06 14:28:56 +0000 2017",
+    "id": 872097983872909300,
+    "id_str": "872097983872909312",
+    "text": "RT @AppDevicesTeam: Leveraging the power of vehicle data offers untold value for drivers and automakers. Find out more at @TUAutomotive w/…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "AppDevicesTeam",
+          "name": "AppDevices",
+          "id": 325820860,
+          "id_str": "325820860",
+          "indices": [
+            3,
+            18
+          ]
+        },
+        {
+          "screen_name": "TUAutomotive",
+          "name": "TU-Automotive",
+          "id": 22922045,
+          "id_str": "22922045",
+          "indices": [
+            122,
+            135
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Sat Jun 03 14:15:14 +0000 2017",
+      "id": 871007369597251600,
+      "id_str": "871007369597251584",
+      "text": "Leveraging the power of vehicle data offers untold value for drivers and automakers. Find out more at @TUAutomotive… https://t.co/tcGej8vTLB",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "TUAutomotive",
+            "name": "TU-Automotive",
+            "id": 22922045,
+            "id_str": "22922045",
+            "indices": [
+              102,
+              115
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/tcGej8vTLB",
+            "expanded_url": "https://twitter.com/i/web/status/871007369597251584",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 325820860,
+        "id_str": "325820860",
+        "name": "AppDevices",
+        "screen_name": "AppDevicesTeam",
+        "location": "San Francisco",
+        "description": "Leading provider of app ecosystem management solutions across sectors including connected devices, automotive, IoT, and platform providers.",
+        "url": "https://t.co/e6BXrmNlcq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/e6BXrmNlcq",
+                "expanded_url": "http://appdevices.com",
+                "display_url": "appdevices.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 407,
+        "friends_count": 360,
+        "listed_count": 49,
+        "created_at": "Tue Jun 28 22:47:11 +0000 2011",
+        "favourites_count": 49,
+        "utc_offset": -21600,
+        "time_zone": "Mountain Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 966,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "EEEEF0",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/458264425372188672/yrK9QE8U.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/458264425372188672/yrK9QE8U.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/797132339922935808/qfRJPCFj_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/797132339922935808/qfRJPCFj_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/325820860/1478886711",
+        "profile_link_color": "F16F25",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "F37F32",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Jun 06 14:01:41 +0000 2017",
+    "id": 872091126144127000,
+    "id_str": "872091126144126976",
+    "text": "How to Succeed with the Microsoft Cloud Solutions Provider Program: https://t.co/whLTsVdOKr #MicrosoftCSP #CloudCommerce",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "MicrosoftCSP",
+          "indices": [
+            92,
+            105
+          ]
+        },
+        {
+          "text": "CloudCommerce",
+          "indices": [
+            106,
+            120
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/whLTsVdOKr",
+          "expanded_url": "http://ow.ly/CoPd30c8oEO",
+          "display_url": "ow.ly/CoPd30c8oEO",
+          "indices": [
+            68,
+            91
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri Jun 02 22:00:58 +0000 2017",
+    "id": 870762188872593400,
+    "id_str": "870762188872593408",
+    "text": "Learn how MSPs can take advantage of the #cloud to create new revenue streams: https://t.co/XoGCOiIHVa… https://t.co/tzV8MjDQM8",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "cloud",
+          "indices": [
+            41,
+            47
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/XoGCOiIHVa",
+          "expanded_url": "http://ow.ly/jaTU30c8rr7",
+          "display_url": "ow.ly/jaTU30c8rr7",
+          "indices": [
+            79,
+            102
+          ]
+        },
+        {
+          "url": "https://t.co/tzV8MjDQM8",
+          "expanded_url": "https://twitter.com/i/web/status/870762188872593408",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            104,
+            127
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Jun 01 19:28:30 +0000 2017",
+    "id": 870361432168087600,
+    "id_str": "870361432168087552",
+    "text": "RT @AppDevicesTeam: Registration is open for @TUAutomotive, join us at the event to see our joint demo of remote diagnostics and OTA updati…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "AppDevicesTeam",
+          "name": "AppDevices",
+          "id": 325820860,
+          "id_str": "325820860",
+          "indices": [
+            3,
+            18
+          ]
+        },
+        {
+          "screen_name": "TUAutomotive",
+          "name": "TU-Automotive",
+          "id": 22922045,
+          "id_str": "22922045",
+          "indices": [
+            45,
+            58
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Thu Jun 01 18:00:56 +0000 2017",
+      "id": 870339396284928000,
+      "id_str": "870339396284928001",
+      "text": "Registration is open for @TUAutomotive, join us at the event to see our joint demo of remote diagnostics and OTA up… https://t.co/WttUfDXoI1",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "TUAutomotive",
+            "name": "TU-Automotive",
+            "id": 22922045,
+            "id_str": "22922045",
+            "indices": [
+              25,
+              38
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/WttUfDXoI1",
+            "expanded_url": "https://twitter.com/i/web/status/870339396284928001",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 325820860,
+        "id_str": "325820860",
+        "name": "AppDevices",
+        "screen_name": "AppDevicesTeam",
+        "location": "San Francisco",
+        "description": "Leading provider of app ecosystem management solutions across sectors including connected devices, automotive, IoT, and platform providers.",
+        "url": "https://t.co/e6BXrmNlcq",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/e6BXrmNlcq",
+                "expanded_url": "http://appdevices.com",
+                "display_url": "appdevices.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 407,
+        "friends_count": 360,
+        "listed_count": 49,
+        "created_at": "Tue Jun 28 22:47:11 +0000 2011",
+        "favourites_count": 49,
+        "utc_offset": -21600,
+        "time_zone": "Mountain Time (US & Canada)",
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 966,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "EEEEF0",
+        "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/458264425372188672/yrK9QE8U.jpeg",
+        "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/458264425372188672/yrK9QE8U.jpeg",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/797132339922935808/qfRJPCFj_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/797132339922935808/qfRJPCFj_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/325820860/1478886711",
+        "profile_link_color": "F16F25",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "F37F32",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu Jun 01 14:56:02 +0000 2017",
+    "id": 870292863321391100,
+    "id_str": "870292863321391104",
+    "text": "Customer onboarding is a crucial step for #SaaS go-to-market success. Read more https://t.co/GOROAHziNX",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            42,
+            47
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/GOROAHziNX",
+          "expanded_url": "http://bit.ly/2rfb94M",
+          "display_url": "bit.ly/2rfb94M",
+          "indices": [
+            80,
+            103
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue May 30 15:05:14 +0000 2017",
+    "id": 869570402422579200,
+    "id_str": "869570402422579200",
+    "text": "Breaking Down the Differences Between #SaaS, #IaaS, and #PaaS. Read more on the @AppDirect  blog:… https://t.co/jsMPOc0rRW",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            38,
+            43
+          ]
+        },
+        {
+          "text": "IaaS",
+          "indices": [
+            45,
+            50
+          ]
+        },
+        {
+          "text": "PaaS",
+          "indices": [
+            56,
+            61
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "AppDirect",
+          "name": "AppDirect",
+          "id": 154310289,
+          "id_str": "154310289",
+          "indices": [
+            80,
+            90
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/jsMPOc0rRW",
+          "expanded_url": "https://twitter.com/i/web/status/869570402422579200",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            99,
+            122
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://www.hootsuite.com\" rel=\"nofollow\">Hootsuite</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri May 26 16:52:10 +0000 2017",
+    "id": 868147763900407800,
+    "id_str": "868147763900407808",
+    "text": "Check out our latest case study: Comcast Business Discovers How to Win with Cloud Solutions.… https://t.co/FHJ0vTP0MR",
+    "truncated": true,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/FHJ0vTP0MR",
+          "expanded_url": "https://twitter.com/i/web/status/868147763900407808",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            94,
+            117
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu May 25 18:36:20 +0000 2017",
+    "id": 867811587259719700,
+    "id_str": "867811587259719680",
+    "text": "3 Smart Ways To Win #SMB #Cloud Business https://t.co/pE7k6I3kRQ via @Channel_Online",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SMB",
+          "indices": [
+            20,
+            24
+          ]
+        },
+        {
+          "text": "Cloud",
+          "indices": [
+            25,
+            31
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "Channel_Online",
+          "name": "Channel Partners",
+          "id": 78968315,
+          "id_str": "78968315",
+          "indices": [
+            69,
+            84
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/pE7k6I3kRQ",
+          "expanded_url": "http://bit.ly/2rYpQa7",
+          "display_url": "bit.ly/2rYpQa7",
+          "indices": [
+            41,
+            64
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed May 24 15:26:35 +0000 2017",
+    "id": 867401447276556300,
+    "id_str": "867401447276556289",
+    "text": "Watch our on-demand webinar to understand key success factors for driving cloud service sales &amp; adoption with SMBs: https://t.co/vssIv9eUV3",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/vssIv9eUV3",
+          "expanded_url": "http://bit.ly/2qgzmol",
+          "display_url": "bit.ly/2qgzmol",
+          "indices": [
+            120,
+            143
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue May 23 22:22:03 +0000 2017",
+    "id": 867143614983360500,
+    "id_str": "867143614983360512",
+    "text": "Looking forward to @CloudExpoAsia. Catch our presentation \"Sustainable Growth in the #Cloud\" Details here:  https://t.co/urdWELHinB",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Cloud",
+          "indices": [
+            85,
+            91
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "CloudExpoAsia",
+          "name": "Cloud Expo Asia",
+          "id": 1182336020,
+          "id_str": "1182336020",
+          "indices": [
+            19,
+            33
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/urdWELHinB",
+          "expanded_url": "http://bit.ly/2qTNPrB",
+          "display_url": "bit.ly/2qTNPrB",
+          "indices": [
+            108,
+            131
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed May 17 21:06:46 +0000 2017",
+    "id": 864950343196475400,
+    "id_str": "864950343196475392",
+    "text": "#SaaS Go-to-Market Success: The Growing Importance of Self-Service Sales. Learn more: https://t.co/j2eTFgIqnj",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            0,
+            5
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/j2eTFgIqnj",
+          "expanded_url": "http://bit.ly/2pMafxG",
+          "display_url": "bit.ly/2pMafxG",
+          "indices": [
+            86,
+            109
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue May 16 15:46:17 +0000 2017",
+    "id": 864507304896483300,
+    "id_str": "864507304896483328",
+    "text": "AppDirect is excited to partner with @bluegrasscell https://t.co/huOahSxMkh #CloudCommerce",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "CloudCommerce",
+          "indices": [
+            76,
+            90
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "bluegrasscell",
+          "name": "Bluegrass Cellular",
+          "id": 86316120,
+          "id_str": "86316120",
+          "indices": [
+            37,
+            51
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/huOahSxMkh",
+          "expanded_url": "http://prn.to/2pCOpsf",
+          "display_url": "prn.to/2pCOpsf",
+          "indices": [
+            52,
+            75
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu May 11 21:47:39 +0000 2017",
+    "id": 862786305268170800,
+    "id_str": "862786305268170752",
+    "text": "Co-CEO @danielsaks talks to @xconomy about Amazon, the growth of cloud service commerce, and partner @bluegrasscell https://t.co/cyPHkWWf1U",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "danielsaks",
+          "name": "Daniel Saks",
+          "id": 251849264,
+          "id_str": "251849264",
+          "indices": [
+            7,
+            18
+          ]
+        },
+        {
+          "screen_name": "Xconomy",
+          "name": "Xconomy",
+          "id": 29881875,
+          "id_str": "29881875",
+          "indices": [
+            28,
+            36
+          ]
+        },
+        {
+          "screen_name": "bluegrasscell",
+          "name": "Bluegrass Cellular",
+          "id": 86316120,
+          "id_str": "86316120",
+          "indices": [
+            101,
+            115
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/cyPHkWWf1U",
+          "expanded_url": "https://goo.gl/9iCcv2",
+          "display_url": "goo.gl/9iCcv2",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu May 11 19:21:32 +0000 2017",
+    "id": 862749532618018800,
+    "id_str": "862749532618018816",
+    "text": "RT @connectedhub: Monetization in automotive is not different from the telecom market, it's a large ecosystem, explains Mercier @AppDirect…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "connectedhub",
+          "name": "Connected Hub",
+          "id": 777876394021978100,
+          "id_str": "777876394021978112",
+          "indices": [
+            3,
+            16
+          ]
+        },
+        {
+          "screen_name": "AppDirect",
+          "name": "AppDirect",
+          "id": 154310289,
+          "id_str": "154310289",
+          "indices": [
+            128,
+            138
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Thu May 11 14:18:41 +0000 2017",
+      "id": 862673318314487800,
+      "id_str": "862673318314487808",
+      "text": "Monetization in automotive is not different from the telecom market, it's a large ecosystem, explains Mercier… https://t.co/lXgO6sk0mH",
+      "truncated": true,
+      "entities": {
+        "hashtags": [],
+        "symbols": [],
+        "user_mentions": [],
+        "urls": [
+          {
+            "url": "https://t.co/lXgO6sk0mH",
+            "expanded_url": "https://twitter.com/i/web/status/862673318314487808",
+            "display_url": "twitter.com/i/web/status/8…",
+            "indices": [
+              111,
+              134
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 777876394021978100,
+        "id_str": "777876394021978112",
+        "name": "Connected Hub",
+        "screen_name": "connectedhub",
+        "location": "Barcelona, España",
+        "description": "The EU platform for the #connectedcar industry. Event by @fira_barcelona lead by @automobilebcn and @smartcityexpo 11-12 May 2017 #ConnectedHub #Automobilebcn",
+        "url": "https://t.co/WfuZn7Yiyc",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/WfuZn7Yiyc",
+                "expanded_url": "http://www.automobilebarcelona.com/en/connected-hub",
+                "display_url": "automobilebarcelona.com/en/connected-h…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1347,
+        "friends_count": 814,
+        "listed_count": 18,
+        "created_at": "Mon Sep 19 14:25:59 +0000 2016",
+        "favourites_count": 943,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1362,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/827493467043557377/itXttr5b_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/827493467043557377/itXttr5b_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/777876394021978112/1491902798",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu May 11 19:19:45 +0000 2017",
+    "id": 862749084968378400,
+    "id_str": "862749084968378369",
+    "text": "Excited to be @connectedhub! #Automobilebcn #ConnectedHub https://t.co/chkTfuxcbK",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Automobilebcn",
+          "indices": [
+            29,
+            43
+          ]
+        },
+        {
+          "text": "ConnectedHub",
+          "indices": [
+            44,
+            57
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "connectedhub",
+          "name": "Connected Hub",
+          "id": 777876394021978100,
+          "id_str": "777876394021978112",
+          "indices": [
+            14,
+            27
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/chkTfuxcbK",
+          "expanded_url": "https://twitter.com/connectedhub/status/862682001039659008",
+          "display_url": "twitter.com/connectedhub/s…",
+          "indices": [
+            58,
+            81
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": true,
+    "quoted_status_id": 862682001039659000,
+    "quoted_status_id_str": "862682001039659008",
+    "quoted_status": {
+      "created_at": "Thu May 11 14:53:11 +0000 2017",
+      "id": 862682001039659000,
+      "id_str": "862682001039659008",
+      "text": "When building a new #connectedcar service you have to start by studying the business ecosystem -Mercier @AppDirect https://t.co/adOqeGCpWB",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "connectedcar",
+            "indices": [
+              20,
+              33
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AppDirect",
+            "name": "AppDirect",
+            "id": 154310289,
+            "id_str": "154310289",
+            "indices": [
+              104,
+              114
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 862681985575202800,
+            "id_str": "862681985575202816",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/C_jcsfhWsAAnQL_.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C_jcsfhWsAAnQL_.jpg",
+            "url": "https://t.co/adOqeGCpWB",
+            "display_url": "pic.twitter.com/adOqeGCpWB",
+            "expanded_url": "https://twitter.com/connectedhub/status/862682001039659008/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 383,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 675,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 2048,
+                "h": 1152,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 862681985575202800,
+            "id_str": "862681985575202816",
+            "indices": [
+              115,
+              138
+            ],
+            "media_url": "http://pbs.twimg.com/media/C_jcsfhWsAAnQL_.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C_jcsfhWsAAnQL_.jpg",
+            "url": "https://t.co/adOqeGCpWB",
+            "display_url": "pic.twitter.com/adOqeGCpWB",
+            "expanded_url": "https://twitter.com/connectedhub/status/862682001039659008/photo/1",
+            "type": "photo",
+            "sizes": {
+              "small": {
+                "w": 680,
+                "h": 383,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 675,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "large": {
+                "w": 2048,
+                "h": 1152,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 777876394021978100,
+        "id_str": "777876394021978112",
+        "name": "Connected Hub",
+        "screen_name": "connectedhub",
+        "location": "Barcelona, España",
+        "description": "The EU platform for the #connectedcar industry. Event by @fira_barcelona lead by @automobilebcn and @smartcityexpo 11-12 May 2017 #ConnectedHub #Automobilebcn",
+        "url": "https://t.co/WfuZn7Yiyc",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/WfuZn7Yiyc",
+                "expanded_url": "http://www.automobilebarcelona.com/en/connected-hub",
+                "display_url": "automobilebarcelona.com/en/connected-h…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1347,
+        "friends_count": 814,
+        "listed_count": 18,
+        "created_at": "Mon Sep 19 14:25:59 +0000 2016",
+        "favourites_count": 943,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1362,
+        "lang": "es",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/827493467043557377/itXttr5b_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/827493467043557377/itXttr5b_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/777876394021978112/1491902798",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 1,
+      "favorite_count": 2,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "retweet_count": 2,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu May 11 15:42:11 +0000 2017",
+    "id": 862694330850345000,
+    "id_str": "862694330850344960",
+    "text": "Learn how service providers can drive revenue w/ #cloudservices in the Asia-Pacific region. Download white paper:… https://t.co/fPdOhh5D7J",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "cloudservices",
+          "indices": [
+            49,
+            63
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/fPdOhh5D7J",
+          "expanded_url": "https://twitter.com/i/web/status/862694330850344960",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            115,
+            138
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon May 08 22:16:16 +0000 2017",
+    "id": 861706341357805600,
+    "id_str": "861706341357805568",
+    "text": "Registration for Engage 2017 is now live! Join the experts who are shaping the #cloudcommerce industry. Register @… https://t.co/QeMnakK6eL",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "cloudcommerce",
+          "indices": [
+            79,
+            93
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/QeMnakK6eL",
+          "expanded_url": "https://twitter.com/i/web/status/861706341357805568",
+          "display_url": "twitter.com/i/web/status/8…",
+          "indices": [
+            116,
+            139
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 5,
+    "favorite_count": 5,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Fri May 05 15:02:58 +0000 2017",
+    "id": 860510137101893600,
+    "id_str": "860510137101893633",
+    "text": "\"3 Tips for Maximizing Software-as-a-Service Growth\" https://t.co/pDhuAFTFgg by @danielsaks on @LinkedIn #SaaS",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            105,
+            110
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "danielsaks",
+          "name": "Daniel Saks",
+          "id": 251849264,
+          "id_str": "251849264",
+          "indices": [
+            80,
+            91
+          ]
+        },
+        {
+          "screen_name": "LinkedIn",
+          "name": "LinkedIn",
+          "id": 13058772,
+          "id_str": "13058772",
+          "indices": [
+            95,
+            104
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/pDhuAFTFgg",
+          "expanded_url": "http://bit.ly/2q7eMuo",
+          "display_url": "bit.ly/2q7eMuo",
+          "indices": [
+            53,
+            76
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 3,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Thu May 04 15:00:01 +0000 2017",
+    "id": 860147004269183000,
+    "id_str": "860147004269182977",
+    "text": "Part 5 of our series #SaaS Go-to-Market Success - Helping Businesses Find Solutions with Assisted Sale. Read more: https://t.co/yERal1xhKC",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            21,
+            26
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/yERal1xhKC",
+          "expanded_url": "http://bit.ly/2p1b8SJ",
+          "display_url": "bit.ly/2p1b8SJ",
+          "indices": [
+            115,
+            138
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 4,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed May 03 16:42:58 +0000 2017",
+    "id": 859810524208300000,
+    "id_str": "859810524208300032",
+    "text": "\"How to Manage #SaaS Churn &amp; Customer Attrition.\" Read more on the AppDirect blog: https://t.co/kYoNjv5fbC",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "SaaS",
+          "indices": [
+            15,
+            20
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [],
+      "urls": [
+        {
+          "url": "https://t.co/kYoNjv5fbC",
+          "expanded_url": "http://bit.ly/2pxpicR",
+          "display_url": "bit.ly/2pxpicR",
+          "indices": [
+            87,
+            110
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Wed Apr 26 17:41:48 +0000 2017",
+    "id": 857288617261023200,
+    "id_str": "857288617261023232",
+    "text": "RT @iotagenda: Skating to where the puck is: Delphi's recent moves in #connectedcar https://t.co/TBfRif7tIl by Terry Hughes of @AppDevicesT…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "connectedcar",
+          "indices": [
+            70,
+            83
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "iotagenda",
+          "name": "IoT Agenda",
+          "id": 4106341055,
+          "id_str": "4106341055",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/TBfRif7tIl",
+          "expanded_url": "http://bit.ly/2owD0xK",
+          "display_url": "bit.ly/2owD0xK",
+          "indices": [
+            84,
+            107
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Apr 26 16:31:01 +0000 2017",
+      "id": 857270802177241100,
+      "id_str": "857270802177241089",
+      "text": "Skating to where the puck is: Delphi's recent moves in #connectedcar https://t.co/TBfRif7tIl by Terry Hughes of @AppDevicesTeam @AppDirect",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "connectedcar",
+            "indices": [
+              55,
+              68
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AppDevicesTeam",
+            "name": "AppDevices",
+            "id": 325820860,
+            "id_str": "325820860",
+            "indices": [
+              112,
+              127
+            ]
+          },
+          {
+            "screen_name": "AppDirect",
+            "name": "AppDirect",
+            "id": 154310289,
+            "id_str": "154310289",
+            "indices": [
+              128,
+              138
+            ]
+          }
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/TBfRif7tIl",
+            "expanded_url": "http://bit.ly/2owD0xK",
+            "display_url": "bit.ly/2owD0xK",
+            "indices": [
+              69,
+              92
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://sproutsocial.com\" rel=\"nofollow\">Sprout Social</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 4106341055,
+        "id_str": "4106341055",
+        "name": "IoT Agenda",
+        "screen_name": "iotagenda",
+        "location": "Newton, MA",
+        "description": "Stay on top of the latest Internet of Things news, advice and features from our editorial team and exclusive IoT Agenda contributor network.",
+        "url": "https://t.co/FI7uxG7Box",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/FI7uxG7Box",
+                "expanded_url": "http://IoTAgenda.com",
+                "display_url": "IoTAgenda.com",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 1617,
+        "friends_count": 134,
+        "listed_count": 357,
+        "created_at": "Tue Nov 03 18:26:09 +0000 2015",
+        "favourites_count": 201,
+        "utc_offset": -14400,
+        "time_zone": "Eastern Time (US & Canada)",
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 3975,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/676876225663492096/HgBolQ9p_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/676876225663492096/HgBolQ9p_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/4106341055/1475007891",
+        "profile_link_color": "4A913C",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 1,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Tue Apr 25 15:25:45 +0000 2017",
+    "id": 856891991828844500,
+    "id_str": "856891991828844544",
+    "text": "RT @rp_TimSheard: Tim Marsden @AppDirect on stage now showing the proven formula for growth in the cloud! #telcocloudforum @AppHelp_AD http…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "telcocloudforum",
+          "indices": [
+            106,
+            122
+          ]
+        }
+      ],
+      "symbols": [],
+      "user_mentions": [
+        {
+          "screen_name": "rp_TimSheard",
+          "name": "Tim Sheard",
+          "id": 2598164905,
+          "id_str": "2598164905",
+          "indices": [
+            3,
+            16
+          ]
+        },
+        {
+          "screen_name": "AppDirect",
+          "name": "AppDirect",
+          "id": 154310289,
+          "id_str": "154310289",
+          "indices": [
+            30,
+            40
+          ]
+        },
+        {
+          "screen_name": "AppHelp_AD",
+          "name": "AppHelp",
+          "id": 36573808,
+          "id_str": "36573808",
+          "indices": [
+            123,
+            134
+          ]
+        }
+      ],
+      "urls": []
+    },
+    "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 154310289,
+      "id_str": "154310289",
+      "name": "AppDirect",
+      "screen_name": "AppDirect",
+      "location": "San Francisco, California",
+      "description": "The leading monetization and management platform for cloud service commerce. We're hiring: http://t.co/qgUGIQMnlv",
+      "url": "http://t.co/MRppRP4Ckl",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "http://t.co/MRppRP4Ckl",
+              "expanded_url": "http://appdirect.com",
+              "display_url": "appdirect.com",
+              "indices": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "http://t.co/qgUGIQMnlv",
+              "expanded_url": "http://info.appdirect.com/about/careers",
+              "display_url": "info.appdirect.com/about/careers",
+              "indices": [
+                91,
+                113
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1980,
+      "friends_count": 484,
+      "listed_count": 144,
+      "created_at": "Thu Jun 10 22:46:57 +0000 2010",
+      "favourites_count": 592,
+      "utc_offset": -25200,
+      "time_zone": "Pacific Time (US & Canada)",
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 3682,
+      "lang": "en",
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "2D2A26",
+      "profile_background_image_url": "http://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/830856509/0e0fabf0437a68b0fdf92bb3219279a0.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/3430349373/c10e337e41565eff02758d7fa3a85946_normal.png",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/154310289/1487969174",
+      "profile_link_color": "009ABF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E7F6FF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": null,
+      "follow_request_sent": null,
+      "notifications": null,
+      "translator_type": "none"
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Tue Apr 25 13:41:26 +0000 2017",
+      "id": 856865737004245000,
+      "id_str": "856865737004244993",
+      "text": "Tim Marsden @AppDirect on stage now showing the proven formula for growth in the cloud! #telcocloudforum @AppHelp_AD https://t.co/refvOIhws6",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "telcocloudforum",
+            "indices": [
+              88,
+              104
+            ]
+          }
+        ],
+        "symbols": [],
+        "user_mentions": [
+          {
+            "screen_name": "AppDirect",
+            "name": "AppDirect",
+            "id": 154310289,
+            "id_str": "154310289",
+            "indices": [
+              12,
+              22
+            ]
+          },
+          {
+            "screen_name": "AppHelp_AD",
+            "name": "AppHelp",
+            "id": 36573808,
+            "id_str": "36573808",
+            "indices": [
+              105,
+              116
+            ]
+          }
+        ],
+        "urls": [],
+        "media": [
+          {
+            "id": 856865700631257100,
+            "id_str": "856865700631257088",
+            "indices": [
+              117,
+              140
+            ],
+            "media_url": "http://pbs.twimg.com/media/C-Qy0JpXoAAHXVr.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C-Qy0JpXoAAHXVr.jpg",
+            "url": "https://t.co/refvOIhws6",
+            "display_url": "pic.twitter.com/refvOIhws6",
+            "expanded_url": "https://twitter.com/rp_TimSheard/status/856865737004244993/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 900,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 510,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 856865700631257100,
+            "id_str": "856865700631257088",
+            "indices": [
+              117,
+              140
+            ],
+            "media_url": "http://pbs.twimg.com/media/C-Qy0JpXoAAHXVr.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/C-Qy0JpXoAAHXVr.jpg",
+            "url": "https://t.co/refvOIhws6",
+            "display_url": "pic.twitter.com/refvOIhws6",
+            "expanded_url": "https://twitter.com/rp_TimSheard/status/856865737004244993/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 2048,
+                "h": 1536,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "medium": {
+                "w": 1200,
+                "h": 900,
+                "resize": "fit"
+              },
+              "small": {
+                "w": 680,
+                "h": 510,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 2598164905,
+        "id_str": "2598164905",
+        "name": "Tim Sheard",
+        "screen_name": "rp_TimSheard",
+        "location": "Manchester, England",
+        "description": "Delivering awesome Tech Support experiences for our customers \n| Technical Guru | Leeds Utd Fan | Cheese Lover",
+        "url": "http://t.co/KEsp42yn3B",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "http://t.co/KEsp42yn3B",
+                "expanded_url": "http://www.radialpoint.com",
+                "display_url": "radialpoint.com",
+                "indices": [
+                  0,
+                  22
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": []
+          }
+        },
+        "protected": false,
+        "followers_count": 54,
+        "friends_count": 125,
+        "listed_count": 1,
+        "created_at": "Tue Jul 01 15:18:23 +0000 2014",
+        "favourites_count": 21,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 74,
+        "lang": "en",
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/483997320371920896/tieulVkt_normal.jpeg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/483997320371920896/tieulVkt_normal.jpeg",
+        "profile_link_color": "FC0000",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": null,
+        "follow_request_sent": null,
+        "notifications": null,
+        "translator_type": "none"
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 3,
+      "favorite_count": 6,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  }
+]

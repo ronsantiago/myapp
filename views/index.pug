@@ -1,50 +1,81 @@
 extends layout
 
 block content
-  h1= title
-  a(href='/settings') Settings
-  
-  form(id="switch" action="/" method="post")
-    label(for="screenNames") By
-    select(id="screenNames" name="screenName")
-      each screenName in localStorage.getItem('screenNames').split(',')
-        option(selected=screenName == localStorage.getItem('screenName'))=screenName
-  
-  if (listTweets.length)
+  div(class="title-div")
     table
-      thead
-        tr
-          each column in columnOrder
-            th= column
       tbody
-        each tweet in listTweets
+        tr
+          td
+            h1= title
+          td(class="navigation")
+            a(href='/settings') Settings
+  div
+    form(id="switch" action="/" method="post")
+      table
+        tbody
+          tr
+            td
+              label(for="screenNames") by
+            td
+              div(class="select-div")
+                select(id="screenNames" name="screenName")
+                  each screenName in localStorage.getItem('screenNames').split(',')
+                    option(selected=screenName==localStorage.getItem('screenName'))=screenName
+            td
+              label(for="timeRange") in
+            td
+              div(class="select-div")
+                select(id="timeRange" name="timeRange")
+                  option(value=60 selected=localStorage.getItem('timeRange')==60) Past Minute
+                  option(value=3600 selected=localStorage.getItem('timeRange')==3600) Past Hour
+                  option(value=86400 selected=localStorage.getItem('timeRange')==86400) Past Day
+                  option(value=604800 selected=localStorage.getItem('timeRange')==604800) Past Week
+                  option(value=Number.MAX_VALUE selected=localStorage.getItem('timeRange')==Number.MAX_VALUE) All
+            td Max. 
+              =localStorage.getItem('count')
+  div(class="content-div")
+    if localStorage.getItem('validUser')=='false'
+      h2.notFound Not a valid user!
+    else if (listTweets.length)
+      table
+        thead
           tr
             each column in columnOrder
-              if column == 'Content'
-                td
-                  if tweet.retweet
-                    div.retweet
-                      span.retweetBy= tweet.retweet_by
-                      |
-                      | retweeted
-                      |
-                      span.retweetFrom=tweet.retweet_from
-                      | :
-                  p.tweetText=tweet.text
-              else if column == 'Created'
-                td
-                  span.tweetDateTime=tweet.date_time
-              else if column == 'Link'
-                td
-                  a(href=tweet.link target="_blank") Link
-              else
-                td Unknown column
-  else
-    h2.notFound No tweets found!
+              th= column
+        tbody
+          each tweet in listTweets
+            tr
+              each column in columnOrder
+                if column == 'Content'
+                  td
+                    if tweet.retweet
+                      div.retweet-div
+                        span.retweetBy= tweet.retweet_by
+                        |
+                        | retweeted
+                        |
+                        span.retweetFrom=tweet.retweet_from
+                        | :
+                    span.tweetText=tweet.text
+                else if column == 'Created'
+                  td
+                    span.tweetDateTime=tweet.date_time
+                else if column == 'Link'
+                  td
+                    a(href=tweet.link target="_blank")
+                      image(class="link-image" alt="Open" src=tweet.linkImage)
+                else
+                  td Unknown column
+    else
+      h2.notFound No tweets found!
     
   script(type="text/javascript").
     $(document).ready(function() {
-      $("select#screenNames").change(function(event) {
+      $('select#screenNames').change(function(event) {
+        $('form#switch').submit();
+      });
+      
+      $('select#timeRange').change(function(event) {
         $('form#switch').submit();
       });
     });

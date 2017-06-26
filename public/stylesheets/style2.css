@@ -1,0 +1,192 @@
+html {
+    margin:    0 auto;
+    max-width: 600px;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+a {
+  color: #adabaf;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4a494b;
+}
+
+.inline {
+  display: inline;
+}
+
+.select-div {
+  position: relative;
+}
+
+.select-div:after {
+  content: '⌄';
+  font-size: 40px;
+  color: black;
+  right: 11px;
+  top: -17px;
+  padding: 0 0 2px;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* IE11 hide native button (thanks Matt!) */
+select::-ms-expand {
+  display: none;
+}
+
+.select-div select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  
+  display: block;
+  width: 100%;
+  /*max-width: 320px;*/
+  height: 34px;
+  /*float: right;*/
+  margin: 0px;
+  padding: 0px 40px 0px 10px;
+  font-size: 16px;
+  line-height: 1.75;
+  color: black;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #0ebeff;
+  border-radius: 3px;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+  
+.input-style {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  border: 1px solid #0ebeff;
+  border-radius: 3px;
+  padding: 7px;
+  outline: none;
+  width: 200px;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.select-style {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  border: 1px solid #0ebeff;
+  border-radius: 3px;
+  padding: 7px;
+  outline: none;
+  width: 200px;
+  font-size: 16px;
+  vertical-align: bottom;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.button-style {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-sizing: border-box;
+  border: 1px solid #0ebeff;
+  border-radius: 3px;
+  padding: 7px;
+  outline: none;
+  font-size: 16px;
+  background-color: #e6f3ff;
+}
+
+.draggable {
+  margin: 0px 5px 0px 0px;
+  border-radius: 10px;
+}
+
+.button-style:hover {
+  color: #fff;
+  background-color: #85cefe;
+  cursor: pointer;
+}
+
+.radio-style {
+  margin: 5px;
+  border: 1px solid #0ebeff;
+}
+
+.radio-style input[type:radio]:checked {
+  background-color: red;
+  color: red;
+}
+
+.title-div h1 {
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+}
+
+.title-div td {
+  margin: 0px;
+  padding: 0px 5px 0px 0px;
+  vertical-align: text-bottom;
+}
+
+.title-div table {
+  border-spacing: 0px;
+  width: 100%;
+}
+
+.content-div table {
+  padding: 10px;
+}
+
+.content-div table {
+  border-space: 0px;
+}
+
+.content-div td {
+  margin: 0px;
+  padding: 5px 5px 5px 5px;
+  vertical-align: top;
+}
+
+.notFound {
+  margin: 10px;
+}
+
+.navigation {
+  text-align: right;
+}
+
+.retweet-div {
+  margin-bottom: 3px;
+  font-size: 12px;
+  color: #7e7f7f;
+}
+
+.settings-name {
+  text-align: right;
+}
+
+.link-image {
+  border: 0;
+  border-radius: 10px;
+  height: 48px;
+  width: 48px;
+}
+
+.dragentered {
+  color: #fff;
+  background-color: #85cefe;
+}
